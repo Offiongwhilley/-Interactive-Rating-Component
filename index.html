@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 1em; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+<div class="rating-state">
+
+  <div class="star">
+  <img src="./images/icon-star.svg" alt="">
+  </div>
+
+  <h2 class="heading">How did we do?</h2>
+
+  <p >Please let us know how we did with your support
+  <br> request. All feedback is appreciated to help us  
+  <br>improve our offering!</p>
+
+  <div class="rating-buttons">
+  <button class="one rating">1</button> 
+  <button class="two rating">2</button> 
+  <button class="three rating">3</button> 
+  <button class="four rating">4</button> 
+  <button class="five rating">5</button> 
+  </div>
+
+  <br>
+  <button class="submit">SUBMIT</button>
+</div>
+  <!-- Rating state end -->
+
+
+
+  <!-- Thank you state start -->
+<div class="thank-you-state">
+
+  <div class="thank-you-img">
+  <img src="/images/illustration-thank-you.svg" alt="" class="thank-you-img">
+  </div>
+
+  <div class="selection">
+  <p>You selected <!-- Add rating here --> out of 5</p>
+  </div>
+
+  <h2 class="thank-you-msg"> Thank you!</h2>
+
+  <p class="appreciation">We appreciate you taking the time to give a
+  <br> 
+  rating. If you ever need more support, 
+  <br>
+  don’t hesitate to get in touch!</p>
+
+</div>
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Offiong Ekpenyong</a>.
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
