@@ -35,20 +35,17 @@ body{
     width: 30px;
     height: 30px;
     background-color: hsl(213, 19%, 18%);
-    margin-left: 0.6em;
     border-radius: 50%;
     position: absolute;
+    position: relative;
+    left:20%;
+    display: inline-flex;
 }
 
-.star img{
-    position: relative;
-    top: 20%;
-    left:20%;
-}
 
 .heading{
     color: hsl(0, 0%, 100%);
-    margin-top: 2em;
+    margin-top: 0.3em;
     margin-bottom: 0.2em;
     font-size: 25px;
     margin-left: 0.4em;
@@ -58,6 +55,13 @@ body{
     color: hsl(0, 0%, 100%);
     opacity: 0.5;
     margin-left: 0.6em;
+}
+
+.prompt{
+    text-align: center;
+    font-size: small;
+    padding: 0.4em;
+    font-style: italic;
 }
 
 .rating-buttons{
